@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# EveryPenny
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+EveryPenny is a user friendly financial tracking app that allows users to create a list of their monthly income and expenses. They can then store and save their monthly financials for later reference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The wireframes below reveals how the website will be formatted. Below you will see the home page, create new financial list page, view all list page, and a edit and delete page.
 
-### `npm test`
+![wireframe](./wirefram.png)
+![wireframe](./wireframeevery.png)
+![wireframe](./wireframepenny.png)
+![wireframe](./wireframeedit.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Hierarchy
 
-### `npm run build`
+![wireframe](comphi.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API and Data Sample
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://airtable.com/tblV42zNZDoD9Xhgu/viwjCArNNc3Ilm7Jj?blocks=hide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Airtable is returning the data for this base as follows:
 
-### `npm run eject`
+```
+{
+    "records": [
+        {
+            "id": "recqnGLMgD87R9sOW",
+            "fields": {
+                "name": "Ziyad Hammad",
+                "date": "July 13, 2021",
+                "income": "3,000",
+                "rent": "1,400",
+                "auto": "170",
+                "food": "400",
+                "misc": "400",
+                "utilities": "300",
+                "entertainment": "100",
+                "healthandwellness": "150"
+            },
+            "createdTime": "2021-07-13T15:30:42.000Z"
+        }
+    ],
+    "offset": "recqnGLMgD87R9sOW"
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP/PostMVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### MVP
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Home page with clickable buttons that route to each respective feed.
+- Fulfill a axios get request to append data to the UI.
+- Fulfill a post request to allow users to create a monthly finance sheet.
+- Style website to be responsive.
+#### PostMVP
 
-## Learn More
+- Look for some animation libraries to make the UI more attractive/user-friendly.
+- Add a section where the user can edit and delete previously stored finance sheet
+- Add some visuals to show percentages spent from monthly income.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Schedule
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| Oct 9-11 | Proposal Approval / Airtable Setup        |incomplete |
+| Oct 12   | Component Creation / Get, Set, Delete Data |incomplete |
+| Oct 13   | Oct. 12 cont'd / CSS Components            |incomplete |
+| Oct 14   | CSS Components cont'd / MVP                |incomplete |
+| Oct 15   | Advanced CSS                               |incomplete |
+| Oct 16   | Presentations                              |incomplete |
 
-### Code Splitting
+## Timeframes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      2hrs      |     2hrs      |    3hrs     |
+| Airtable setup            |    H     |     .5hrs      |      1hr      |     .5hr     |
+| NavBar          |    H     |      2hrs      |      1hr      |     1hr     |
+| Footer     |    H     |      3hrs      |     3hrs      |    3hrs     |
+| HomePage     |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Styling for HomePage/Footer/NavBar     |    H     |      3hrs      |     2hrs      |    2hrs     |
+| ViewAll Page       |    H     |      3hrs      |     2hrs      |    2hrs     |
+|       Styling for ViewAllPage |    H     |      3hrs      |     1 hr      |    1 hr     |
+| CreateNew Page      |    H     |      3hrs      |     1 hr      |     1hr     |
+| CreateNew Page Styling|    H     |      3hrs      |     3hrs      |    3hrs     |
+| Edit/Delete Page|    H     |      3hrs      |      1hr      |     1hr     |
+| Styling for Edit Page|    H     |      3hrs      |      1hr      |     1hr     |
+| Additional Styling(advanced)       |    H     |      3hrs      |      1hr      |     1hr     |
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## SWOT Analysis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Strengths:
 
-### Advanced Configuration
+I have a good understanding of what i want my application to look like and what exactly I want it to do. That being said I can better plan out how I'm going to use my time and execute my project in a timely matter. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Weaknesses:
 
-### Deployment
+I am still not terribly clear on CRUD and how I can get really creative with it. I do have some resources I can look back on if I do need help.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Opportunities:
 
-### `npm run build` fails to minify
+This project will allow me to practice what I've learned the past two weeks in unit 2. This should help me solidify my knowledge on react and what I can improve on.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Threats:
+
+Whenever my code doesnt work or I recieve an error I'll get stuck on the issue for a long time trying to debug and what not. I also tend to take a lot of time on css side of things. I'm not that strong as of right now with the styling aspect however I plan on expanding my css skills by trying new ways of styling that I'm used to for this project.
