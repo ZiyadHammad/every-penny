@@ -26,7 +26,7 @@ export default function ViewLog() {
   return (
     <div>{list.map((list) => {
       return(
-        <div className="Monthly-list">
+        <div className="Monthly-list" key={list.id}>
           <p>Name:{list.fields.name}</p>
           <p>Date:{list.fields.date}</p>
           <p>Income:{list.fields.income}</p>

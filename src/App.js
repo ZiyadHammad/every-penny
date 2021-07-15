@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage"
 import ViewLog from "./components/ViewLog"
 import CreateNew from "./components/CreateNew"
+import Footer from "./components/Footer"
 
 import './App.css';
 
@@ -25,6 +26,8 @@ function App() {
       <Route exact path="/create-new">
         <CreateNew />
       </Route>
+
+      <Footer />
       
 
       

@@ -4,9 +4,11 @@ import {Link} from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <div className="Navbar-Menu">
+    
       
-      <nav className="Navbar-options">
+    <nav>
+      
+        <ul className="Navbar-options">
       <Link to="/">
        <li>Home</li>
       </Link>
@@ -15,9 +17,11 @@ export default function Navbar() {
         </Link>
         <Link to="/view-log">
           <li>View Log</li>
-        </Link>
+          </Link>
+      </ul>
+      
         </nav>
       
-    </div>
+    
   )
 }

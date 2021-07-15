@@ -1,12 +1,46 @@
-.App {
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("http://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max") ;
+  background-size: cover;
+}
+
+li {
+  text-decoration: none;
+}
+
+nav {
+  display: -webitkit-flex;
+  display: -moz-;
+  display: -ms-;
+  display: -o-flex;
   display: flex;
   justify-content: center;
+  align-items:  center;
+  padding: 30px 70px;
 
 }
 
-.Navbar-Menu {
-  display: flex;
-  list-style-type: none; 
-  text-decoration:none;
+.Navbar-options {
+  list-style: none;
+
+}
+
+.Navbar-options li {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Home {
+  color: limegreen;
+  font-size: 40px;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
