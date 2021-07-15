@@ -3,6 +3,7 @@ import {Route} from "react-router-dom"
 
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage"
+import ViewLog from "./components/ViewLog"
 
 import './App.css';
 
@@ -14,8 +15,11 @@ function App() {
       <Route path="/">
         <Navbar />
       </Route>
-      <Route>
-        <HomePage exact path="/" />
+      <Route exact path="/">
+        <HomePage />
+      </Route>
+      <Route exact path="/view-log">
+        <ViewLog />
       </Route>
       
 
