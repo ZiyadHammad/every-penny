@@ -4,6 +4,7 @@ import {Route} from "react-router-dom"
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage"
 import ViewLog from "./components/ViewLog"
+import CreateNew from "./components/CreateNew"
 
 import './App.css';
 
@@ -20,6 +21,9 @@ function App() {
       </Route>
       <Route exact path="/view-log">
         <ViewLog />
+      </Route>
+      <Route exact path="/create-new">
+        <CreateNew />
       </Route>
       
 
