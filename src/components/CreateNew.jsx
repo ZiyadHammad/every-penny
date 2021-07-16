@@ -47,9 +47,9 @@ export default function CreateNew() {
 
 
   return (
-    <div>
-    <h3>Add a new List</h3>
-    <form onSubmit={handleSubmit}>
+    <div className="Create-wrap">
+    <h3>Create Log</h3>
+    <form className="create-log" onSubmit={handleSubmit}>
       <label>Name</label>
       <br />
       <input
@@ -140,7 +140,7 @@ export default function CreateNew() {
           placeholder="Entertainment"
         />
         <br />
-      <button>Create New</button>
+      <button>Save & Submit</button>
     </form>
   </div>
   )

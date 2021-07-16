@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html, body {
   height: 100%;
@@ -62,7 +63,60 @@ nav {
   justify-content: center;
   margin-top: auto;
   height: 50px;
-  margin-top: 500px
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  font-size: 30px;
+}
+#git{
+  font-size: 30px;
+  margin: 5px;
+
+}
+#link{
+  font-size: 30px;
+  margin: 5px;
+}
+.Create-New {
+  border: 2px solid white;
+  border-radius: 4px;
+
+}
+
+.create-log {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  color:limegreen;
+  width: 50%
+}
+h3 {
+  display: flex;
+  color:limegreen;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.Create-wrap {
+  width: 800px;
+margin: 5% auto;
+}
+
+.create-log{
+  display:flex;
+  background: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 1.9em;
+  justify-content: center;
+  align-self: center;
+  margin: 0 auto;
+}
+
+
+.Monthly-list {
+  color: white;
 
 }
 

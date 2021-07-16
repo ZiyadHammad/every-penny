@@ -27,6 +27,10 @@ function App() {
       <Route exact path="/create-new">
         <CreateNew />
       </Route>
+      <Route path="/log-detail/:id">
+        {/* <DetailPage /> */}
+        
+      </Route>
 
       <Footer />
       
