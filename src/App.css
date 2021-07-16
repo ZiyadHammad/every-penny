@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
 body {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),url("http://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max") ;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%
 }
 
 li {
@@ -41,6 +51,18 @@ nav {
   display:flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.Footer {
+  display: flex;
+  color: white;
+  background-color: none;
+  align-content: flex-end;
+  justify-content: center;
+  margin-top: auto;
+  height: 50px;
+  margin-top: 500px
 
 }
 

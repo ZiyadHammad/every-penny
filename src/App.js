@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage"
 import ViewLog from "./components/ViewLog"
 import CreateNew from "./components/CreateNew"
 import Footer from "./components/Footer"
+import "./components/Fontawesome"
 
 import './App.css';
 
