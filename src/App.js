@@ -7,6 +7,7 @@ import ViewLog from "./components/ViewLog"
 import CreateNew from "./components/CreateNew"
 import Footer from "./components/Footer"
 import "./components/Fontawesome"
+import DetailPage from "./components/DetailPage"
 
 import './App.css';
 
@@ -27,9 +28,9 @@ function App() {
       <Route exact path="/create-new">
         <CreateNew />
       </Route>
+      
       <Route path="/log-detail/:id">
-        {/* <DetailPage /> */}
-        
+        <DetailPage />
       </Route>
 
       <Footer />
