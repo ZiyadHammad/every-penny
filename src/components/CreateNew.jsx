@@ -50,97 +50,108 @@ export default function CreateNew() {
     <div className="Create-wrap">
     <h3>Create Log</h3>
     <form className="create-log" onSubmit={handleSubmit}>
-      <label>Name</label>
-      <br />
-      <input
-        name="name"
-        value={input.name}
-        onChange={handleChange}
-        placeholder="Your Name"
-      />
-      <br />
+        <div className="create-div">
+          <label>Name</label>
+          <input
+          name="name"
+          value={input.name}
+          onChange={handleChange}
+          placeholder="Your Name"/>
+        </div>
+        
+        <div className="create-div">
       <label>Date</label>
-      <br />
+      
       <input
         name="date"
         value={input.date}
           onChange={handleChange}
           placeholder="Date"
-        />
-        <br />
+          />
+          </div>
+          <div className="create-div">
         <label>Income</label>
-        <br />
+        
         <input
           name="income"
           value={input.income}
           onChange={handleChange}
           placeholder="Income"
         />
-        <br />
+        </div>
+        <div className="create-div">
         <label>Rent</label>
-        <br />
+      
         <input
           name="rent"
           value={input.rent}
           onChange={handleChange}
           placeholder="Rent"
         />
-        <br />
+        </div>
+        <div className="create-div">
         <label>Food</label>
-        <br />
+        
         <input
           name="food"
           value={input.food}
           onChange={handleChange}
           placeholder="Food"
         />
-        <br />
+        </div>
+        <div className="create-div">
         <label>Auto</label>
-        <br />
+        
         <input 
           name="auto"
           value={input.auto}
           onChange={handleChange}
           placeholder="Auto"
         />
-        <br />
+        </div>
+        <div className="create-div">
         <label>Utilities</label>
-        <br />
+        
         <input 
           name="utilities"
           value={input.utilities}
           onChange={handleChange}
           placeholder="Utilities"
           />
-        <br />
+        </div>
+        <div className="create-div">
           <label>Health&Wellness</label>
-        <br />
+        
         <input 
           name="healthandwellness"
           value={input.healthandwellness}
           onChange={handleChange}
           placeholder="Health&Wellness"
         />
-        <br />
+        </div>
+        <div className="create-div">
           <label>Miscellaneous</label>
-        <br />
+        
         <input 
           name="misc"
           value={input.misc}
           onChange={handleChange}
           placeholder="Miscellaneous"
         />
-        <br />
+        </div>
+        <div className="create-div">
          <label>Entertainment</label>
-        <br />
+        
         <input 
           name="entertainment"
           value={input.entertainment}
           onChange={handleChange}
           placeholder="Entertainment"
         />
-        <br />
-      <button>Save & Submit</button>
+        </div>
+        <div className="create-div">
+          <button>Save</button>
+          </div>
     </form>
   </div>
   )

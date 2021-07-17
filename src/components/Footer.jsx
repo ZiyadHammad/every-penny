@@ -8,13 +8,13 @@ export default function Footer() {
     <div className="Footer">
       <p>Created @Ziyad Hammad</p>
 
-      <a href="https://github.com/ZiyadHammad" target="_blank">
+      <a href="https://github.com/ZiyadHammad" target="_blank" rel="noreferrer" >
         <FontAwesomeIcon icon={faGithub} id="git" />
         </a>
       
       
 
-      <a href="https://www.linkedin.com/in/ziyad-hammad/" target="_blank">
+      <a href="https://www.linkedin.com/in/ziyad-hammad/" target="_blank" rel="noreferrer" >
         <FontAwesomeIcon icon={faLinkedin} id="link" />
       </a>
       

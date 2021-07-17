@@ -33,6 +33,7 @@ export default function DetailPage() {
         Authorization: `Bearer ${AIRTABLE_KEY}`,
       },
     })
+  
     // Takes you back to all recipes page when clicking delete button
     history.push("/view-log")
   }

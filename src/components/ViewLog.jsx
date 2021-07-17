@@ -27,10 +27,10 @@ export default function ViewLog() {
   return (
     <div>{list.map((list) => {
       return(
-        <div className="Monthly-list" key={list.id}>
+        <div className="view-log" key={list.id}>
           <Link to={`/log-detail/${list.id}`}>
-          <p>Name:{list.fields.name}</p>
-          <p>Date:{list.fields.date}</p>
+          <p>{list.fields.name}</p>
+          <p>{list.fields.date}</p>
           </Link>
 
         </div> )
