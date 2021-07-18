@@ -28,7 +28,7 @@ export default function DetailPage() {
 
   const handleDelete = async () => {
    let newUrl = `${URL}/${id}`
-    const res = await axios.delete(newUrl, {
+    await axios.delete(newUrl, {
       headers: {
         Authorization: `Bearer ${AIRTABLE_KEY}`,
       },

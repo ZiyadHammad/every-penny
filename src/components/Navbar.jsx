@@ -6,9 +6,9 @@ export default function Navbar() {
   return (
     
       
-    <nav>
-      
-        <ul className="Navbar-options">
+    <nav className="navbar-container">
+      <div className="Navbar-options">
+        <ul>
       <Link to="/">
        <li>Home</li>
       </Link>
@@ -19,7 +19,7 @@ export default function Navbar() {
           <li>View Log</li>
           </Link>
       </ul>
-      
+      </div>
         </nav>
       
     
