@@ -1,4 +1,5 @@
 # EveryPenny
+https://distracted-dijkstra-a1d71b.netlify.app
 
 
 
@@ -68,12 +69,12 @@ Airtable is returning the data for this base as follows:
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup        |incomplete |
-| Oct 12   | Component Creation / Get, Set, Delete Data |incomplete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            |incomplete |
-| Oct 14   | CSS Components cont'd / MVP                |incomplete |
-| Oct 15   | Advanced CSS                               |incomplete |
-| Oct 16   | Presentations                              |incomplete |
+| Oct 9-11 | Proposal Approval / Airtable Setup        |Complete |
+| Oct 12   | Component Creation / Get, Set, Delete Data |Complete |
+| Oct 13   | Oct. 12 cont'd / CSS Components            |Complete |
+| Oct 14   | CSS Components cont'd / MVP                |Complete |
+| Oct 15   | Advanced CSS                               |Complete |
+| Oct 16   | Presentations                              |Complete |
 
 ## Timeframes
 
