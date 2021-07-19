@@ -14,6 +14,7 @@ export default function DetailPage() {
 
   useEffect(() => {
     fetchData()
+    // eslint-disable-next-line
   }, [])
   const fetchData = async () => {
     const newUrl = `${URL}/${id}`
