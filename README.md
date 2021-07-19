@@ -82,17 +82,17 @@ Airtable is returning the data for this base as follows:
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     2hrs      |    3hrs     |
 | Airtable setup            |    H     |     .5hrs      |      1hr      |     .5hr     |
-| NavBar          |    H     |      2hrs      |      1hr      |     1hr     |
-| Footer     |    H     |      3hrs      |     3hrs      |    3hrs     |
-| HomePage     |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Styling for HomePage/Footer/NavBar     |    H     |      3hrs      |     2hrs      |    2hrs     |
+| NavBar          |    H     |      2hrs      |      1hr      |     3hr     |
+| Footer     |    H     |      3hrs      |     3hrs      |    3     |
+| HomePage     |    H     |      3hrs      |     2hrs      |    3hr     |
+| Styling for HomePage/Footer/NavBar     |    H     |      3hrs      |     2hrs      |    3hr    |
 | ViewAll Page       |    H     |      3hrs      |     2hrs      |    2hrs     |
-|       Styling for ViewAllPage |    H     |      3hrs      |     1 hr      |    1 hr     |
-| CreateNew Page      |    H     |      3hrs      |     1 hr      |     1hr     |
+|       Styling for ViewAllPage |    H     |      3hrs      |     1 hr      |    3hr    |
+| CreateNew Page      |    H     |      3hrs      |     1 hr      |     3hr    |
 | CreateNew Page Styling|    H     |      3hrs      |     3hrs      |    3hrs     |
-| Edit/Delete Page|    H     |      3hrs      |      1hr      |     1hr     |
-| Styling for Edit Page|    H     |      3hrs      |      1hr      |     1hr     |
-| Additional Styling(advanced)       |    H     |      3hrs      |      1hr      |     1hr     |
+| Edit/Delete Page|    H     |      3hrs      |      1hr      |     3hr    |
+| Styling for Edit Page|    H     |      3hrs      |      1hr      |     3hr     |
+| Additional Styling(advanced)       |    H     |      3hrs      |      1hr      |     3hr    |
 
 
 
